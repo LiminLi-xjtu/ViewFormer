@@ -6,7 +6,7 @@ ViewFormer:multi-view few-shot learning based on transformer
 
 Jing Liu, Xi Wang, Limin Li
 
-<img src="figs/framework_ViewFormer.png">
+<img src="figs/framework_ViewFormer.jpg">
 
 
 ## `Requirements`
