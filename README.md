@@ -2,7 +2,7 @@
 
 This is the PyTorch Implementation for our paper:
 
-ViewFormer:multi-view few-shot learning based on transformer
+ViewFormer: View-Shot Bimodal Imprinting Transformer for Multi-View Few-Shot Learning
 
 Jing Liu, Xi Wang, Limin Li
 
