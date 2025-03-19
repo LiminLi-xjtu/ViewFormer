@@ -27,8 +27,8 @@ Jing Liu, Xi Wang, Limin Li
 ## Multi-View Few-shot Learning 
 
 For the Multi-View Few-shot Learning task, we are given a set of samples with multiple views. 
-During training, only samples of a subset of support set are available. For testing, the model is tested
-on samples of unseen (novel) class. We evaluate ViewFormer on three datasets, 
+During training, only samples of a subset of support set are available. 
+For testing, the model is tested on samples of unseen (novel) class. We evaluate ViewFormer on three datasets, 
 MVset, Caltech-20 and NUS-WIDE-OBJECT. 
 
 
