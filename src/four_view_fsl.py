@@ -59,9 +59,7 @@ class feature_proj(nn.Module):
 
 class MULTModel(nn.Module):
     def __init__(self, hyp_params):
-        """
-        Construct a MulT model.
-        """
+
         super(MULTModel, self).__init__()
         self.orig_d_1, self.orig_d_2, self.orig_d_3, self.orig_d_4 = hyp_params.orig_d_1, hyp_params.orig_d_2, hyp_params.orig_d_3, hyp_params.orig_d_4
         self.d_l, self.d_a, self.d_v = hyp_params.l_len, hyp_params.a_len, hyp_params.v_len
