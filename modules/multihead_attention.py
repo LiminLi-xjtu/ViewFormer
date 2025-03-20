@@ -4,7 +4,6 @@ from torch.nn import Parameter
 import torch.nn.functional as F
 import sys
 
-# Code adapted from the fairseq repo.
 
 class MultiheadAttention(nn.Module):
     """Multi-headed attention.
