@@ -7,9 +7,7 @@ from modules.transform_FSL import TransformerEncoder
 
 class MULTModel(nn.Module):
     def __init__(self, hyp_params):
-        """
-        Construct a MulT model.
-        """
+
         super(MULTModel, self).__init__()
         self.orig_d_l, self.orig_d_a, self.orig_d_v = hyp_params.orig_d_l, hyp_params.orig_d_a, hyp_params.orig_d_v
         self.d_l, self.d_a, self.d_v = hyp_params.l_len, hyp_params.a_len, hyp_params.v_len
