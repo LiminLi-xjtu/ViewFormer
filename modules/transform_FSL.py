@@ -8,7 +8,7 @@ import math
 class TransformerEncoder(nn.Module):
     """
     Transformer encoder consisting of *args.encoder_layers* layers. Each layer
-    is a :class:`TransformerEncoderLayer`.
+    is a :class:`TransformerEncoderLayer`
     Args:
         embed_tokens (torch.nn.Embedding): input embedding
         num_heads (int): number of heads
