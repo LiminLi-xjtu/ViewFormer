@@ -8,7 +8,7 @@ from modules.transform_FSL import TransformerEncoder
 class feature_proj(nn.Module):
     def __init__(self, hyp_params):
         """
-        Construct a feature_extractor.
+        Construct a feature_extractor
 
         input:[len, num_keywords], [len, num_actor]
         output:[len, encoder_dim], [len, encoder_dim]
