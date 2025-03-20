@@ -18,11 +18,6 @@ if torch.cuda.is_available():
 else:
     torch.set_default_tensor_type('torch.FloatTensor')
 
-############################################################################################
-# This file provides basic processing script for the multimodal datasets we use. For other
-# datasets, small modifications may be needed (depending on the type of the data, etc.)
-############################################################################################
-
 parser = argparse.ArgumentParser(description='Cross View Analysis')
 parser.add_argument('-f', default='', type=str)
 
